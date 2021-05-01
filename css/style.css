@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+
+div.arena {
+    border: 1px solid black;
+    height: 480px;
+    width: 450px;
+    margin: 20px auto;
+    margin-bottom: 0;
+    position: relative;
+}
+
+div.alimento {
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 2;
+}
+
+div.jogador {
+    width: 10px;
+    height: 10px;
+    background: black;
+    position: absolute;
+    z-index: 0;
+}
+
+.placar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+.score, .qtd_jogadores {
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+div.score h1, 
+div.score h4,
+div.qtd_jogadores h1, 
+div.qtd_jogadores h4 {
+    margin: 0;
+    padding: 0;
+}
