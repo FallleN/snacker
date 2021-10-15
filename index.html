@@ -7,24 +7,28 @@
     <title>Snacker</title>
 
     <link rel="stylesheet" href="./css/style.css">
+
+
     <script src="./jogador.js"></script>
+    <script src="./arena.js"></script>
+    <script src="./main.js"></script>
 
 </head>
-<body> 
+<body onload="init()"> 
 
-    <div class="arena">
-        <div class="alimento"></div>
-        <div class="jogador"> </div>
+    <div class="arena" id="arena">
+        <!-- <div class="alimento"></div> -->
+        <!-- <div class="jogador"> </div> -->
     </div>
 
     <div class="placar">
         <div class="content">
             <div class="score">
-                <h1>0</h1>
+                <h1 id="score">0</h1>
                 <h4>Score</h4>
             </div>
             <div class="qtd_jogadores">
-                <h1>1</h1>
+                <h1 id="jogadores">1</h1>
                 <h4>Jogadores</h4>
             </div>
         </div>

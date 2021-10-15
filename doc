@@ -1,0 +1,12 @@
+limite da arena
+
+top: 470px;
+left: 440px
+
+
+pegar a esquerda do elemento
+offsetLeft
+
+
+pegar espaçamento do topo do elemento
+offsetTop
